@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginBox">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Username"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="taskApp" class="hidden">
+  <h2 id="welcome"></h2>
+  <button onclick="logout()">Logout</button>
+  <hr>
+
+  <div id="pmArea" class="hidden">
+    <h3>Add / Edit Task</h3>
+    <input type="text" id="title" placeholder="Task Title"><br>
+    <input type="text" id="desc" placeholder="Task Description"><br>
+    <input type="date" id="deadline"><br>
+    <select id="assignedTo">
+      <option value="">Assign to...</option>
+      <option value="user1">user1</option>
+      <option value="user2">user2</option>
+    </select><br>
+    <button onclick="addOrUpdateTask()">Save Task</button>
+  </div>
+
+  <h3>Tasks</h3>
+  <div id="taskList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
