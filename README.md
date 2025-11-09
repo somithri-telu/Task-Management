@@ -1,4 +1,4 @@
-Time MAnagement -
+Time Management -
 Build a simple task management web Application where project manager(PM) and users can manage task effectively. 
 
 
