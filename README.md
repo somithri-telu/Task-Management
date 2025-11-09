@@ -4,23 +4,23 @@ Build a simple task management web Application where project manager(PM) and use
 
 Features - 
 Project Manager capabilities:
-Login with credentials
-Add task with - title, description, deadline,assigned user
-Edit task
-Delete task 
-View task
+- Login with credentials
+- Add task with - title, description, deadline,assigned user
+- Edit task
+- Delete task 
+- View task
 
 
 User capabilities:
-Login with credentials
-View task assigned to them 
-Update status:(eg pending , in progress, done)
+- Login with credentials
+- View task assigned to them 
+- Update status:(eg pending , in progress, done)
 
 
 How to run:
-Open the code in VSCode
-Open html file in a browser
-Login using the credentials ggiven below
+1. Open the code in VSCode
+2. Open html file in a browser
+3. Login using the credentials ggiven below
 
 
 Login Credentials:
@@ -31,8 +31,10 @@ Login Credentials:
 | User 2          | user2    | 123      |
 
 
-The project includes: index.html,style.css,script.js
-A screen recording is also included
+The project includes: 
+    index.html,
+    style.css,
+    script.js
 
 Author:
 Somithri Telu
